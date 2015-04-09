@@ -1,0 +1,31 @@
+{
+  "name": "solver",
+  "version": "1.0.0",
+  "description": "solver library",
+  "keywords": [
+    "non-linear",
+    "solution",
+    "equations",
+    "numerical",
+    "methods",
+    "analisys"
+  ],
+  "main": [
+    "dist/solver.js",
+    "dist/solver.min.js"
+  ],
+  "authors": [
+    "Jefferson Hernández"
+  ],
+  "homepage": "https://github.com/mljs/solver",
+  "license": "MIT",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "/*",
+    "!dist/*"
+  ]
+}
