@@ -1,7 +1,8 @@
-require("../src/solutionLinearSystem");
-require("../src/nonLinearEquations");
+"use strict";
+
+var SolutionLinearSystem = require("..").SolutionLinearSystem;
+var NonLinearEquations = require("..").NonLinearEquations;
 var math = require('mathjs');
-var should = require('should');
 
 describe('Numerical methods', function() {
 
@@ -16,7 +17,7 @@ describe('Numerical methods', function() {
                                   [-7],
                                   [4],
                                   [6]]);
-             var result = SolutionLinearSystem._backSubstitution(A, B);
+             var result = SolutionLinearSystem.backSubstitution(A, B);
              var solutions = [3, -4, -1, 2];
              for(var i = 0; i < solutions.length; ++i) {
                  math.subset(result, math.index(i, 0)).should.be.approximately(solutions[i], 10e-7);
