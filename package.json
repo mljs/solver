@@ -35,7 +35,7 @@
     "mathjs": "latest"
   },
   "devDependencies": {
-    "benchmark": "^1.0.0",
+    "benchmark": "^2.1.2",
     "mocha": "latest",
     "mocha-better-spec-reporter": "latest",
     "should": "latest"
